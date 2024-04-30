@@ -7,7 +7,7 @@ namespace DesafioFundamentos.Models
     {
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
-        private List<Veiculo> veiculos = new List<Veiculo>();
+        private List<Veiculo> Veiculos = new List<Veiculo>();
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
@@ -15,6 +15,11 @@ namespace DesafioFundamentos.Models
             this.precoPorHora = precoPorHora;
         }
 
-       
+        public decimal CalculoPrecoEstadia(decimal valor)
+        {
+            return valor;
+        }
+
+
     }
 }
